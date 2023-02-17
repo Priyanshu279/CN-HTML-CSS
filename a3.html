@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Five tips for fron-end web development</title>
+    <link rel="stylesheet" href="a3.css" />
   </head>
 
   <body>
@@ -27,6 +28,22 @@
         <header id="blog-header">
           <h1>Five tips for front-end web development</h1>
         </header>
+
+        <div id="author-container">
+          <img id="author-img" src="./image/author-pic.png" alt="author" />
+          <span id="author-name">
+            <a href="https://www.codingninjas.com/blog/author/kannumittal/"
+              >kannumittal</a
+            >
+          </span>
+          <span class="slash">&ensp;/&ensp;</span>
+          <span id="author-topic">
+            <a
+              href="https://www.codingninjas.com/blog/category/web-development/"
+              >Web Development</a
+            >
+          </span>
+        </div>
 
         <article id="blog-content">
           <div id="blog-image-container">
@@ -173,6 +190,23 @@
           </p>
         </article>
       </main>
+      <aside>
+        <section id="subscription" class="widget">
+          <h4 class="widget-title">
+            Subscribe now to stay updated with new technology trends.
+          </h4>
+
+          <div id="subscribe-form">
+            <form action="">
+              <label for="input-name">Name</label>
+              <input id="input-name" name="name" type="text" />
+              <label for="input-email">Email *</label>
+              <input id="input-email" name="input-email" type="text" required />
+              <button class="sub-btn" type="submit">SUBSCRIBE</button>
+            </form>
+          </div>
+        </section>
+      </aside>
     </div>
   </body>
 </html>
